@@ -9,7 +9,7 @@ class People extends Component {
   render(){
     return(
       <h1>people</h1>  
-
+      
 
     );
 

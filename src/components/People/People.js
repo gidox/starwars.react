@@ -13,7 +13,7 @@ class People extends Component {
         <p><b>Hair color:</b> {this.props.hairColor}</p>
         <p><b>Eye Color:</b> {this.props.eyeColor}</p>
         <p><b>Link:</b> <a href={this.props.url}>{this.props.url}</a></p>
-        <p className="text-center"><Link to="people/1">More Info</Link></p>
+        <p className="text-center"><Link to={{ pathname: `/people/${this.props.id + 1}`}}>More Info</Link></p>
 
 
         

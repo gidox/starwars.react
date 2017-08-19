@@ -8,6 +8,7 @@ class People extends Component {
     return (
 
       <div>
+
       <Panel header={this.props.name} bsStyle="primary">
         <p><b>Gender:</b> {this.props.gender}</p>
         <p><b>Hair color:</b> {this.props.hairColor}</p>
